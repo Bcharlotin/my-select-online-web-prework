@@ -1,8 +1,18 @@
-def my_select(num)
- num = [1,2,3,4,5,6,7,8,9,10]
-
-if 	num.include?
+def my_select(collection) 
+  empty_arr = [] 
   
-  yield(my_select(num))
-	
-end
+  i=0 
+  while i < collection.length
+  empty_arr.push yield(collection[i]) 
+  i += 1 
+end 
+
+  empty_arr.compact 
+end 
+
+
+my_select(nums) do |num| 
+  if num.even?
+    num 
+  end 
+end 
