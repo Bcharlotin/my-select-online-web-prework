@@ -11,7 +11,7 @@ end
 end 
 
 
-my_select(nums) do |num| 
+def my_select(nums) do |num| 
   if num.even?
     num 
   end 
