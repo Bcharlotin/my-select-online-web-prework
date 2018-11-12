@@ -1,7 +1,8 @@
 def my_select(num)
-  i=0
- my_select(num) do |num|
- if num == num 
-   yeild(my_select(i))
- i +=1
+ num = [1,2,3,4,5,6,7,8,9,10]
+
+num.select do |x|
+if 	x.include?
+  yield(my_select(num))
+	
 end
