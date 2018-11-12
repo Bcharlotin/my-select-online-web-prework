@@ -1,6 +1,7 @@
 def my_select(num)
   
  my_select(num) do |num|
- return num
+ if num== num
+   return true
  
 end
