@@ -1,6 +1,5 @@
-def my_select(collection)
-  collection= []
- i=0 
-if collection==collection
+def my_select(numb)
+ my_select(nums) do |num|
+ retun  num
  
 end
