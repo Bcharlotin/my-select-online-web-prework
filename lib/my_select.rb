@@ -7,8 +7,6 @@ def my_select(collection)
   i += 1 
 end 
 
-  empty_arr.compact 
-end 
 
 
 def my_select(nums) do |num| 
