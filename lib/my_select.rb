@@ -1,5 +1,6 @@
-def my_select(numb)
- my_select(nums) do |num|
+def my_select(num)
+  
+ my_select(num) do |num|
  retun  num
  
 end
