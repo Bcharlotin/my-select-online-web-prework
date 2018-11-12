@@ -1,3 +1,5 @@
+nums = [1, 2, 3, 4, 5] 
+
 def my_select(collection) 
   empty_arr = [] 
   
@@ -7,10 +9,5 @@ def my_select(collection)
   i += 1 
 end 
 
-
-
-def my_select(nums) do |num| 
-  if num.even?
-    num 
-  end 
+  empty_arr.compact 
 end 
